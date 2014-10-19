@@ -8,7 +8,7 @@ public class AddNewContactTest extends TestBase {
   public void testAddNonEmptyContact() throws Exception {
 	openMainPage();
     addNewContact();
-    ConactData contact = new ConactData();
+    ContactData contact = new ContactData();
     contact.firstname = "First Name 1";
     contact.lastname = "Last Name 1";
     contact.address = "Address 1";
@@ -30,7 +30,7 @@ public class AddNewContactTest extends TestBase {
   public void testAddEmptyContact() throws Exception {
 	openMainPage();
     addNewContact();
-    ConactData contact = new ConactData();
+    ContactData contact = new ContactData();
     contact.firstname = "";
     contact.lastname = "";
     contact.address = "";

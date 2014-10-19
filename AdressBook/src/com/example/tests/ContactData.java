@@ -1,6 +1,6 @@
 package com.example.tests;
 
-public class ConactData {
+public class ContactData {
 	public String firstname;
 	public String lastname;
 	public String address;
@@ -15,11 +15,11 @@ public class ConactData {
 	public String address_secondary;
 	public String tel_home_secondary;
 	
-	public ConactData() {
+	public ContactData() {
 		
 	}
 
-	public ConactData(String firstname, String lastname, String address,
+	public ContactData(String firstname, String lastname, String address,
 			String tel_home, String tel_mobile, String tel_work,
 			String mail_main, String mail_secondary, String bday,
 			String bmonth, String byear, String address_secondary,
